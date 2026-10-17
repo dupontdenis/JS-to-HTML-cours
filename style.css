@@ -39,5 +39,32 @@ body {
   margin: 0;
 }
 
+/* Styles pour les listes */
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
+li {
+  margin: 5px 0;
+}
+
+/* styles pour les tableaux */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+}
