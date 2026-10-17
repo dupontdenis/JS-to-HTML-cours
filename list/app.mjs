@@ -14,11 +14,11 @@ function generateStudent(student) {
 // Générer tous les éléments de la liste
 const listeItems = students.map(generateStudent).join("");
 
-// Injecter le HTML dans une liste ul
-const listeUl = `
-  <ul>
+// Injecter le HTML dans une liste ol
+const listeOl = `
+  <ol>
     ${listeItems}
-  </ul>
+  </ol>
 `;
 
-app.innerHTML = listeUl
+app.innerHTML = listeOl;

@@ -41,8 +41,7 @@ body {
 
 /* Styles pour les listes */
 
-ul {
-  list-style-type: none;
+ol {
   padding: 0;
 }
 
